@@ -1,0 +1,402 @@
+.a1
+{
+   color: white;
+   text-align: center;
+   font-weight: bold;
+   font-size: small;
+}
+.b2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9c6446;
+}
+.b2:hover
+{
+    border-color: black;
+    border-bottom: 3px solid;
+}
+.b3 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 180px;
+}
+.b3:hover
+{
+    border-color: black;
+    border-bottom: 3px solid;
+}
+.sale
+{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.c1
+{
+    background-image: url(../img/img1.avif);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.head1
+{
+    color: white;
+    font-weight: 700;
+    font-size: xxx-large;
+    margin-left: 80px;
+    margin-top: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head2
+{
+    color: white;
+    font-weight: 700;
+    font-size: 120px;
+    margin-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head3
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 70px;
+}
+.btn1
+{
+    margin-top: 280px;
+   
+}
+.btn2
+{
+    margin-top: 280px;
+    margin-left: 70px;
+}
+.shoes
+{
+    margin: 20px 5px;
+}
+.heading
+{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 28px ;
+}
+.heading2
+{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 3px;
+}
+.image-container
+{
+    transition: transform 0.2s;
+}
+.image-container:hover
+{
+    transform: scale(1.1);
+}
+.zoom-image
+{
+    width: 100%;
+    height: auto;
+}
+.card
+{
+    overflow: hidden;
+    position: relative;
+}
+.middle
+{
+    background-image: url(../img/middle.avif);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.h1
+{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.h2
+{
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.all
+{
+    height: 70px;
+    width: 130px;
+    margin: 80px 650px;
+}
+ .background-image
+{
+    background-image: url(../img/si1.avif);
+    background-size: cover;
+    height: 600px;
+    margin-top: 40px;
+    transition: transform 0.5s ease;
+}
+.col-sm-4:hover .background-image
+{
+    transform: scale(1.1);
+} 
+.men 
+{
+    display: none; 
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    transition: opacity 0.5s ease;
+}
+.col-sm-4:hover .men
+{
+    display: block;
+    opacity: 1;
+}
+.background-image2
+{
+    background-image: url(../img/si2.avif);
+    background-size: cover;
+    height: 600px;
+    margin-top: 40px;
+    transition: transform 0.5s ease;
+}
+.col-sm-4:hover .background-image2
+{
+    transform: scale(1.1);
+}
+.background-image3
+{
+    background-image: url(../img/si3.avif);
+    background-size: cover;
+    height: 600px;
+    margin-top: 40px;
+    transition: transform 0.5s ease;
+}
+.col-sm-4:hover .background-image3
+{
+    transform: scale(1.1);
+}
+.like
+{
+    background-color: #9c6446;
+}
+.like2
+{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.crd1
+{
+    background-color: rgb(199, 192, 192);
+}
+.crd11
+{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 8px;
+}
+.crd12
+{
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+}
+.crd13
+{
+    color: rgb(96, 93, 93);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: line-through;
+}
+.pf
+{
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.pf1
+{
+    color: #9c6446;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+.main 
+{
+    background-color: #9c6446;
+}
+.help
+{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ht 
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.ht2
+{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+.help2
+{
+    background-color: #9c6446;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.pf3
+{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    margin-left: 560px;
+}
+.paragraph
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.pic
+{
+    height: 920px;
+}
+.pic2
+{
+    background-color: #9c644690;
+    height: 670px; 
+}
+.z1
+{
+   font-weight: bolder;
+   font-size: 50px;
+   margin-top: 200px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.z2
+{
+   margin-top: 20px;
+   font-weight: 700;
+}
+.z3
+{
+   margin-top: 20px;
+   font-size: 20px;
+}
+.socks
+{
+    background-image: url(../img/socks.avif);
+    background-size: cover;
+    height: 380px;
+    width: 100%;
+}
+.socks1
+{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+.socks2
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.sk1 
+{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: black;
+}
+.sk2 
+{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: black;
+    margin-left: 10px;
+}
+.sk3
+{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: black; 
+     
+}
+.sk4
+{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: black; 
+    background-color: #9c6446;
+    color: white;
+}
+.btnn
+{
+    display: none;
+    border: 0px;
+}
+.col-sm-3:hover .btnn
+{
+    display: block;
+}
+.zy:hover
+{
+    background-color: rgb(181, 167, 167);
+}
+

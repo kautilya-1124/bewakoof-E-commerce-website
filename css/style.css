@@ -1,0 +1,271 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+.sub-nav{
+    background-color: #eeeeee;
+}
+.font-s
+{
+    font-size: 11px;
+    color: black;
+    
+}
+.button-h
+{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+/* Importing Google Font - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+.slider-wrapper {
+  overflow: hidden;
+  width: auto;
+  margin: 0 70px 55px;
+}
+
+.card-list .card-item {
+  height: 51vh;
+  color: #fff;
+  user-select: none;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+ /* background-color: #4658ff; */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+  align-items: center;
+  
+  margin-top: 50px;
+  box-sizing: border-box;
+  
+}
+
+.card-list .card-item .user-image {
+  width: auto;
+  height: 50vh;
+  border-radius: 14px;
+overflow: hidden;
+  border: 3px solid #fff;
+
+
+  
+  
+}
+
+.card-list .card-item .user-profession {
+  font-size: 1.15rem;
+  color: #e3e3e3;
+  font-weight: 500;
+  margin: 14px 0 40px;
+}
+
+.card-list .card-item .message-button {
+  font-size: 1.25rem;
+  padding: 10px 35px;
+  color: #030728;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+
+.card-list .card-item .message-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.slider-wrapper .swiper-slide-button {
+  color: black;
+  margin-top: -55px;
+  transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+  color: #4658ff;
+}
+
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}
+
+
+
+/* heading */
+.heading-h
+{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* ==========================card product rate ================================== */
+.card-list-p .card-item-p {
+  height: 70vh;
+  color: #fff;
+  user-select: none;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+ /* background-color: #4658ff; */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+  align-items: center;
+  
+  margin-top: 50px;
+  box-sizing: border-box;
+  
+}
+.card-list-p .card-item-p .user-image-p {
+  width: auto;
+  height: 50vh;
+  border-radius: 14px;
+overflow: hidden;
+  border: 3px solid #fff;
+
+
+  
+  
+}
+
+/* =======================banner=========================== */
+.banner
+{
+  
+  background-image: url(../images/Glow-In-Dark-Sneakers-Thin-Banner-Desktop-1729167290.gif);
+  height: 20vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+/* =============================aos======================================= */
+/* =======================banner=========================== */
+.banner-men
+{
+  
+  background-image: url(../images/mens/b.webp);
+  height: 20vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+/* =============================aos======================================= */
+/* =============================card action=========================== */
+.card__action {
+  transform: translateY(50%)
+    translateY(calc(var(--hover, 0) * (var(--size) * -0.4)));
+/*   backdrop-filter: blur(calc(var(--blur) * 0.5)); */
+  transition: transform 0.2s;
+}
+
+.card__action svg {
+  aspect-ratio: 1;
+  width: 50%;
+}
+
+
+.card:is(:hover, :focus-visible) {
+  --hover: 1;
+}
+.card-12:is(:hover, :focus-visible) {
+  --hover: 1;
+  background-image: url(../images/1x1-2024-HC-New-oct-1stweek-savingzon-common-1728207566.jpg);
+}
+.card-13:is(:hover, :focus-visible) {
+  --hover: 1;
+  background-image: url(../images/Venom-1x1-movie-launch-Banner-1729254197.webp);
+  color: white;
+}
+.card__img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  transform: scale(calc(1 + (var(--hover, 0) * 0.25))) rotate(calc(var(--hover, 0) * -5deg));
+  transition: transform 0.2s;
+}
+
+/* #Cursor
+================================================== */
+.cursor,
+.cursor2,
+.cursor3{
+	position: fixed;
+	border-radius: 50%;	
+	transform: translateX(-50%) translateY(-50%);
+	pointer-events: none;
+	left: -100px;
+	top: 50%;
+  background-color: #fdcc2c;
+  mix-blend-mode:screen;
+	
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear; 
+	z-index: 9999999;
+}
+.cursor{
+	background-color: var(--white-gr);
+	height: 0;
+	width: 0;
+	z-index: 9999999;
+}
+.cursor2,.cursor3{
+	height: 36px;
+	width: 36px;
+	z-index:99998;
+	-webkit-transition:all 0.3s ease-out;
+	transition:all 0.3s ease-out
+}
+.cursor2.hover,
+.cursor3.hover{
+	-webkit-transform:scale(2) translateX(-25%) translateY(-25%);
+	transform:scale(2) translateX(-25%) translateY(-25%);
+	border:none
+}
+.cursor2{
+	border: 2px solid var(--white-gr);
+	box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
+.cursor2.hover{
+	background: rgb(248, 244, 12);
+	box-shadow: 0 0 0 rgba(255, 255, 255, 0.2);
+}
